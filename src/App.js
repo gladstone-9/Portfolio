@@ -6,7 +6,7 @@ const config = {
   github: {
     username: 'gladstone-9', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 3, // How many projects to display.
+    limit: 1, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -16,10 +16,10 @@ const config = {
     linkedin: 'gabriel-gladstone-10ba38223/',
     email: 'zwy7ce@gmail.com',
   },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
+  // resume: {
+  //   fileUrl:
+  //     'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+  // },
   // skills: [
   //   'PHP',
   //   'Laravel',
@@ -81,15 +81,22 @@ const config = {
       title: 'Spectrum Analyzer Holiday Light Show',
       description:
         'Holiday lights that respond to music based on the measured frequency.',
-      imageUrl: '',
+      imageUrl: 'https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbePvUf%2FbtqA8iqrRN3%2F5SScxfitIhZM1KhQR8nhd0%2Fimg.jpg',
       link: 'https://gladstone-9.github.io/SpectrumAnalyzerPrototype_GabrielGladstone.pdf',
     },
     {
-      title: 'Project Name',
+      title: 'Smart Trash',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'A wireless detection system for waste collection using an Arduino IOT microcontroller and Arduino products to alert staff where and when a trash can is full on campus.',
+      imageUrl: 'https://i.pinimg.com/originals/7c/d5/63/7cd563654dbe09f1e59385b42a3ecb7d.png',
+      link: 'https://github.com/gladstone-9/gladstone-9.github.io/blob/main/Smart%20Trash_GabrielGladstone.pdf',
+    },
+    {
+      title: 'A.T.M. Finder',
+      description:
+        'A website to help people find the closest ATM.',
+      imageUrl: 'https://static.vecteezy.com/system/resources/previews/000/240/638/original/atm-vector.jpg',
+      link: 'https://devpost.com/software/at-this-moment-a-t-m-finder',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
