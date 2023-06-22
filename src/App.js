@@ -80,9 +80,9 @@ const config = {
     {
       title: 'Spectrum Analyzer Holiday Light Show',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Holiday lights that respond to music based on the measured frequency.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://gladstone-9.github.io/SpectrumAnalyzerPrototype_GabrielGladstone.pdf',
     },
     {
       title: 'Project Name',
