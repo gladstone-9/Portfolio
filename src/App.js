@@ -81,7 +81,7 @@ const config = {
       title: 'Spectrum Analyzer Holiday Light Show',
       description:
         'Holiday lights that respond to music based on the measured frequency.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '',
       link: 'https://gladstone-9.github.io/SpectrumAnalyzerPrototype_GabrielGladstone.pdf',
     },
     {
@@ -93,11 +93,11 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many posts to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -111,7 +111,7 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
