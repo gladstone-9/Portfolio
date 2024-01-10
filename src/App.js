@@ -85,11 +85,25 @@ const config = {
       link: 'https://gladstone-9.github.io/SpectrumAnalyzerPrototype_GabrielGladstone.pdf',
     },
     {
+      title: 'Electrocardiography (EKG) System',
+      description:
+        'A custom PCB EKG System to measure heartbeats.',
+      imageUrl: 'https://m.media-amazon.com/images/I/61DPW4rkncL._SL1500_.jpg',
+      link: 'https://drive.google.com/file/d/1nfclblP3kTyFwyu7DOyp_s8mQftGkoJ_/view?usp=sharing',
+    },
+    {
       title: 'Smart Trash',
       description:
         'A wireless detection system for waste collection using an Arduino IOT microcontroller and Arduino products to alert staff where and when a trash can is full on campus.',
       imageUrl: 'https://i.pinimg.com/originals/7c/d5/63/7cd563654dbe09f1e59385b42a3ecb7d.png',
       link: 'https://github.com/gladstone-9/gladstone-9.github.io/blob/main/Smart%20Trash_GabrielGladstone.pdf',
+    },
+    {
+      title: 'Restaurant Description Generator',
+      description:
+        'A Prompt Engineering tool built for the Israeli Startup Vegan Friendly.',
+      imageUrl: 'https://github.com/gladstone-9/VeganFriendly_Fall2023/blob/Workflow_VeganFriendlyAutomation.png',
+      link: 'https://github.com/gladstone-9/VeganFriendly_Fall2023',
     },
     {
       title: 'A.T.M. Finder',
