@@ -81,13 +81,13 @@ const config = {
       title: 'Spectrum Analyzer Holiday Light Show',
       description:
         'Holiday lights that respond to music based on the measured frequency.',
-      imageUrl: 'https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbePvUf%2FbtqA8iqrRN3%2F5SScxfitIhZM1KhQR8nhd0%2Fimg.jpg',
+      imageUrl:
+        'https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbePvUf%2FbtqA8iqrRN3%2F5SScxfitIhZM1KhQR8nhd0%2Fimg.jpg',
       link: 'https://gladstone-9.github.io/SpectrumAnalyzerPrototype_GabrielGladstone.pdf',
     },
     {
       title: 'Electrocardiography (EKG) System',
-      description:
-        'A custom PCB EKG System to measure heartbeats.',
+      description: 'A custom PCB EKG System to measure heartbeats.',
       imageUrl: 'https://m.media-amazon.com/images/I/61DPW4rkncL._SL1500_.jpg',
       link: 'https://drive.google.com/file/d/1nfclblP3kTyFwyu7DOyp_s8mQftGkoJ_/view?usp=sharing',
     },
@@ -95,21 +95,23 @@ const config = {
       title: 'Smart Trash',
       description:
         'A wireless detection system for waste collection using an Arduino IOT microcontroller and Arduino products to alert staff where and when a trash can is full on campus.',
-      imageUrl: 'https://i.pinimg.com/originals/7c/d5/63/7cd563654dbe09f1e59385b42a3ecb7d.png',
+      imageUrl:
+        'https://i.pinimg.com/originals/7c/d5/63/7cd563654dbe09f1e59385b42a3ecb7d.png',
       link: 'https://github.com/gladstone-9/gladstone-9.github.io/blob/main/Smart%20Trash_GabrielGladstone.pdf',
     },
     {
       title: 'Restaurant Description Generator',
       description:
         'A Prompt Engineering tool built for the Israeli Startup Vegan Friendly.',
-      imageUrl: 'https://github.com/gladstone-9/VeganFriendly_Fall2023/blob/Workflow_VeganFriendlyAutomation.png',
+      imageUrl:
+        'https://github.com/gladstone-9/VeganFriendly_Fall2023/blob/Workflow_VeganFriendlyAutomation.png',
       link: 'https://github.com/gladstone-9/VeganFriendly_Fall2023',
     },
     {
       title: 'A.T.M. Finder',
-      description:
-        'A website to help people find the closest ATM.',
-      imageUrl: 'https://static.vecteezy.com/system/resources/previews/000/240/638/original/atm-vector.jpg',
+      description: 'A website to help people find the closest ATM.',
+      imageUrl:
+        'https://static.vecteezy.com/system/resources/previews/000/240/638/original/atm-vector.jpg',
       link: 'https://devpost.com/software/at-this-moment-a-t-m-finder',
     },
   ],
@@ -188,7 +190,7 @@ const config = {
   },
 
   // // Optional Footer. Supports plain text or HTML.
-  // footer: `Made with <a 
+  // footer: `Made with <a
   //     class="text-primary" href="https://github.com/arifszn/gitprofile"
   //     target="_blank"
   //     rel="noreferrer"
