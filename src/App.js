@@ -78,6 +78,13 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
+      title: 'GeoQuest',
+      description: 'A community Geocaching site.',
+      imageUrl:
+        'https://th.bing.com/th/id/OIP.VIrMu53KG7OfWnCVthrXjgHaHT?rs=1&pid=ImgDetMain',
+      link: 'https://github.com/gladstone-9/GeoQuest',
+    },
+    {
       title: 'Spectrum Analyzer Holiday Light Show',
       description:
         'Holiday lights that respond to music based on the measured frequency.',
@@ -103,8 +110,7 @@ const config = {
       title: 'Restaurant Description Generator',
       description:
         'A Prompt Engineering tool built for the Israeli Startup Vegan Friendly.',
-      imageUrl:
-        'https://github.com/gladstone-9/VeganFriendly_Fall2023/blob/Workflow_VeganFriendlyAutomation.png',
+      imageUrl: 'https://cdn-icons-png.flaticon.com/512/1985/1985582.png',
       link: 'https://github.com/gladstone-9/VeganFriendly_Fall2023',
     },
     {
